@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects · Aurora Lane</title>
+    <meta name="description" content="Portfolio projects and UI/UX case studies by Aurora Lane." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container navbar">
+        <a class="brand" href="index.html">Aurora<span>Lane</span></a>
+        <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a class="active" href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="section">
+        <p class="eyebrow">Selected work</p>
+        <h1>Case studies with measurable outcomes.</h1>
+        <p class="lead">Filter by domain to browse targeted UX solutions across industries.</p>
+      </section>
+
+      <div class="filter-row">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="saas">SaaS</button>
+        <button class="filter" data-filter="mobile">Mobile</button>
+        <button class="filter" data-filter="ecommerce">E-commerce</button>
+      </div>
+
+      <section class="grid-3">
+        <article class="surface project-card" data-project="saas">
+          <div class="thumb" aria-hidden="true"></div>
+          <h3>Finflow Dashboard</h3>
+          <p>Information architecture overhaul increased report completion by 31%.</p>
+          <div class="tags"><span class="tag">SaaS</span><span class="tag">Dashboard</span></div>
+        </article>
+
+        <article class="surface project-card" data-project="mobile">
+          <div class="thumb" aria-hidden="true"></div>
+          <h3>CareConnect App</h3>
+          <p>Redesigned patient onboarding and appointment booking with 42% higher activation.</p>
+          <div class="tags"><span class="tag">Mobile</span><span class="tag">Healthtech</span></div>
+        </article>
+
+        <article class="surface project-card" data-project="ecommerce">
+          <div class="thumb" aria-hidden="true"></div>
+          <h3>Northlane Storefront</h3>
+          <p>Checkout simplification reduced cart abandonment by 18% in 6 weeks.</p>
+          <div class="tags"><span class="tag">E-commerce</span><span class="tag">Conversion</span></div>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">© 2026 Aurora Lane · UI/UX Designer</div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
